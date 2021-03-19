@@ -1,0 +1,16 @@
+{
+	"name": "react-error-boundry",
+	"version": "0.0.0",
+	"main": "index.js",
+	"private": true,
+	"scripts": {},
+	"dependencies": {
+		"prop-types": "^15.7.2",
+		"react": "^17.0.1"
+	},
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:ajlabarre/react-error-boundry.git"
+	}
+}
