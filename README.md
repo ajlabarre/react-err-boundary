@@ -1,5 +1,6 @@
 # react-error-boundry
-## A straight-forward light weight error boundary for React components
+
+## A straight-forward leight weight error boundary for React components
 
 This easy to implement error boundary component isolates errors to the component that throws them so your entire react app doesn't crash on error.
 
@@ -17,6 +18,7 @@ npm i --save react-error-boundary
 ```
 
 ## Usage
+
 Usage is very straight-forward! Simply wrap your component in the Error Boundary component to create an error boundary
 
 ```

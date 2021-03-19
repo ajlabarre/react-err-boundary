@@ -1,16 +1,19 @@
 {
-	"name": "react-err-boundary",
-	"author": "AJ LaBarre",
-	"version": "0.0.0",
-	"main": "index.js",
-	"scripts": {},
-	"dependencies": {
-		"prop-types": "^15.7.2",
-		"react": "^17.0.1"
-	},
-	"devDependencies": {},
-	"repository": {
-		"type": "git",
-		"url": "git@github.com:ajlabarre/react-error-boundry.git"
-	}
+  "name": "react-err-boundary",
+  "author": "AJ LaBarre",
+  "version": "0.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "scripts": {},
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ajlabarre/react-error-boundry.git"
+  }
 }
