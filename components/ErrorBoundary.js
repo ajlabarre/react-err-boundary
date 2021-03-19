@@ -42,7 +42,7 @@ class ErrorBoundary extends Component {
 			extra = { componentStack: errorInfo.componentStack };
 		}
 		// You can also log the error to an error reporting service
-		logger.error(error, extra);
+		if (logger) logger.error(error, extra);
 
 		this.setState({ hasError: true });
 		this.props.onError(error);
