@@ -1,9 +1,13 @@
 {
   "name": "react-err-boundary",
   "author": "AJ LaBarre",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
-  "keywords": [],
+  "keywords": [
+	  "react",
+	  "reactjs",
+	  "error"
+  ],
   "scripts": {},
   "dependencies": {
     "prop-types": "^15.7.2",
