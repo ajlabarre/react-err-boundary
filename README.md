@@ -21,7 +21,7 @@ npm i --save react-err-boundary
 
 Usage is very straight-forward! Simply wrap your component in the Error Boundary component to create an error boundary
 
-```
+```javascript
 import ErrorBoundary from 'react-err-boundary';
 
 ...

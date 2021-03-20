@@ -5,24 +5,10 @@ import PropTypes from "prop-types";
  * Error boundary component which catches errors below itself in the component tree
  */
 class ErrorBoundary extends Component {
-  static propTypes = {
-    // Children nodes to be rendered
-    children: PropTypes.node,
-    // UI to be displayed in case of error
-    displayError: PropTypes.node,
-    // Error handling function
-    onError: PropTypes.func,
-    // Optional logger
-    logger: PropTypes.object,
-  };
-
-  static defaultProps = {
-    onError: () => {},
-  };
-
-  state = {
-    hasError: false,
-  };
+  constructor(props) {
+    super(props);
+    this.state = { hasError: false };
+  }
 
   /**
    * Render a fallback UI after an error has been thrown
@@ -68,5 +54,20 @@ class ErrorBoundary extends Component {
     return children;
   }
 }
+
+ErrorBoundary.propTypes = {
+  // Children nodes to be rendered
+  children: PropTypes.node,
+  // UI to be displayed in case of error
+  displayError: PropTypes.node,
+  // Error handling function
+  onError: PropTypes.func,
+  // Optional logger
+  logger: PropTypes.object,
+};
+
+ErrorBoundary.defaultProps = {
+  onError: () => {},
+};
 
 export default ErrorBoundary;
