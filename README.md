@@ -34,21 +34,20 @@ import ErrorBoundary from 'react-err-boundary';
 ## Props
 
 ```javascript
-class ErrorBoundary extends Component {
-  static propTypes = {
-	  // Children nodes to be rendered
-    children: PropTypes.node,
-	// UI to be displayed in case of error
-    displayError: PropTypes.node,
-	// Error handling function
-    onError: PropTypes.func,
-	// Optional logger
-    logger: PropTypes.object,
-  };
+ErrorBoundary.propTypes = {
+  // Children nodes to be rendered
+  children: PropTypes.node,
+  // UI to be displayed in case of error
+  displayError: PropTypes.node,
+  // Error handling function
+  onError: PropTypes.func,
+  // Optional logger
+  logger: PropTypes.object,
+};
 
-  static defaultProps = {
-    onError: () => {},
-  };
+ErrorBoundary.defaultProps = {
+  onError: () => {},
+};
 ```
 
 ## License
