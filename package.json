@@ -1,7 +1,7 @@
 {
   "name": "react-err-boundary",
   "author": "AJ LaBarre",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/ajlabarre/react-err-boundary",
   "main": "index.js",
   "license": "MIT",
