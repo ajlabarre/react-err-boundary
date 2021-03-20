@@ -25,6 +25,25 @@ Usage is very straight-forward! Simply wrap your component in the Error Boundary
 </ErrorBoundary>
 ```
 
+## Props
+```javascript
+class ErrorBoundary extends Component {
+  static propTypes = {
+	  // Children nodes to be rendered
+    children: PropTypes.node,
+	// UI to be displayed in case of error
+    displayError: PropTypes.node,
+	// Error handling function
+    onError: PropTypes.func,
+	// Optional logger
+    logger: PropTypes.object,
+  };
+
+  static defaultProps = {
+    onError: () => {},
+  };
+```
+
 ## License
 MIT
 **Free Software, Hell Yeah!**
