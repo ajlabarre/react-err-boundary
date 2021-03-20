@@ -1,7 +1,8 @@
 {
   "name": "react-err-boundary",
   "author": "AJ LaBarre",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "homepage": "https://github.com/ajlabarre/react-err-boundary",
   "main": "index.js",
   "license": "MIT",
   "keywords": [
@@ -21,6 +22,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ajlabarre/react-err-boundry.git"
+    "url": "git@github.com:ajlabarre/react-err-boundary.git"
   }
 }
