@@ -6,13 +6,13 @@ import PropTypes from "prop-types";
  */
 class ErrorBoundary extends Component {
   static propTypes = {
-	  // Children nodes to be rendered
+    // Children nodes to be rendered
     children: PropTypes.node,
-	// UI to be displayed in case of error
+    // UI to be displayed in case of error
     displayError: PropTypes.node,
-	// Error handling function
+    // Error handling function
     onError: PropTypes.func,
-	// Optional logger
+    // Optional logger
     logger: PropTypes.object,
   };
 
