@@ -1,0 +1,26 @@
+{
+	"presets": [
+		[
+			"@babel/preset-env",
+			{
+				"targets": "last 2 versions, > 5%, not dead, ie 11, chrome 57"
+			}
+		],
+		"@babel/preset-react"
+	],
+	"plugins": [],
+	"env": {
+		"test": {
+			"presets": [
+				[
+					"@babel/preset-env",
+					{
+						"targets": {
+							"node": "current"
+						}
+					}
+				]
+			]
+		}
+	}
+}

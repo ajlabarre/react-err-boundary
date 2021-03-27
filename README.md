@@ -2,7 +2,7 @@
 
 ## A straight-forward light weight error boundary for React components
 
-This easy to implement error boundary component isolates errors to the component that throws them so your entire react app doesn't crash on error.
+This easy to implement error boundary component isolates errors to the child component that throws them so your entire react app doesn't crash on error.
 
 ## Features
 
