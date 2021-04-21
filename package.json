@@ -19,7 +19,7 @@
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "dependencies": {
-    "@babel/cli": "^7.12.17",
+    "@babel/cli": "^7.13.16",
     "@babel/core": "^7.12.17",
     "@babel/plugin-proposal-decorators": "^7.13.5",
     "@babel/preset-env": "^7.13.10",
